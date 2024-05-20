@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3e5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #4a148c;
+}
+
+.random-topic {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.random-topic img {
+    max-width: 100%;
+    height: auto;
+}
+
+.form-group {
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    margin: 5px 0;
+    color: #4a148c;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 10px 0;
+    border: 2px solid #7e57c2;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #4a148c;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #7e57c2;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #5e35b1;
+}
+
+.user-writings {
+    margin-top: 20px;
+}
+
+.writing {
+    background: #ffffff;
+    padding: 10px;
+    border: 1px solid #d1c4e9;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.writing h3 {
+    margin: 0 0 10px 0;
+    color: #4a148c;
+}
+
+.writing small {
+    color: #7e57c2;
+}
